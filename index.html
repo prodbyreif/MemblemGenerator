@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memblem's Numbers</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">Memblem</header>
+
+
+
+    <section class="container">
+
+        <!-- MEMBLEM DICE -->
+        <div id="loader">
+            <div class="flex-container" >
+                <div class="loader"  data-text="loaderloader"></div>
+            </div>
+            <div class="flex-container" >
+                <div class="loader"  data-text="loaderloader"></div>
+            </div>
+            <div class="flex-container" >
+                <div class="loader"  data-text="loaderloader"></div>
+            </div>
+            <div class="flex-container" >
+                <div class="loader"  data-text="loaderloader"></div>
+            </div>
+        </div>
+
+
+
+        <!-- Numbers show up here: -->
+        <div id="output"></div>
+
+        <!-- INPUTS section-->
+        <div id="formContainer">
+            <form id="inputForm">
+                    <div class="min-section">
+                        <div class="row">
+                            <label for="min">Min</label>
+                        </div>
+                        <input type="number" id="min" class="input">
+                    </div>
+                    <div class="max-section">
+                        <div class="row">
+                            <label for="max">Max</label>
+                        </div>
+                        <input type="number" id="max" class="input">
+                    </div>
+
+            </form>
+        </div>
+
+        
+        <div id="buttonContainer">
+            <button class="btn" id="generate">Generate</button>
+            <button class="btn" id="reset">Reset</button>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
